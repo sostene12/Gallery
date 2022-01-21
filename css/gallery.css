@@ -53,6 +53,11 @@
   grid-area: img7;
   background-image: url("../images/thumbs/img7.jpg");
 }
+/* trying scale of the image once we hover */
+#index-gallery .img7:hover {
+  transform: scale(1.1);
+  z-index: 200000;
+}
 
 /* gallery image titles */
 .gallery-img div {
@@ -65,8 +70,10 @@
   align-items: center;
 }
 .gallery-img div:hover {
-  opacity: 0.75;
+  opacity: 0.7;
   transition: all ease-in-out 100ms;
+  /* transform: scale(1.1);
+  z-index: 200000; */
 }
 .gallery-img a {
   text-decoration: none;
